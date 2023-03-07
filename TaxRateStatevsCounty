@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+    double sales = 95000;
+    cout << ""
+    double stateTaxRate = .04;
+    double countyTaxRate = .02;
+
+    double stateTax = sales * stateTaxRate;
+    double countyTax = sales * countyTaxRate;
+
+    cout << sales << endl;
+    cout << stateTax << endl;
+    cout << countyTax << endl;
+    return 0;
+}
